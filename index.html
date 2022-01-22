@@ -13,6 +13,10 @@
 </head>
 
 <body>
+
+    <!--=========
+         header-section
+        =========== -->
     <header class="navitaion py-2">
         <nav>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -26,14 +30,14 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item mx-3">
-                                <a class="nav-link active" aria-current="page" href="#">Features</a>
+                                <a class="nav-link active" aria-current="page" href="#features">Features</a>
                             </li>
                             <li class="nav-item mx-3">
-                                <a class="nav-link" href="#">Download</a>
+                                <a class="nav-link" href="#feature">Feature</a>
                             </li>
 
                             <li class="nav-item mx-3">
-                                <a class="nav-link" href="#">Download</a>
+                                <a class="nav-link" href="#download">Download</a>
                             </li>
 
                             <li class="nav-item">
@@ -57,6 +61,10 @@
          header-ended
         =========== -->
     <main>
+
+        <!--=========
+             display-section
+            ========== -->
         <section class="container banner d-flex align-items-center justify-content-center">
             <div class="row d-flex justify-content-center aling-items-center">
                 <div class="col-md-6">
@@ -65,12 +73,12 @@
                         Launch your mobile app landing page faster with this free, open source theme from Start
                         Bootstrap!
                     </p>
-                    <div class="btn btn a"><img src="images/google-play.png" alt=""></div>
-                    <div class="btn btn"><img src="images/app-store.png" alt=""></div>
+                    <div class="btn btn a"><img class="img-fluid" src="images/google-play.png" alt=""></div>
+                    <div class="btn btn"><img class="img-fluid" src="images/app-store.png" alt=""></div>
                 </div>
-                <div class="col-md-6">
-                    <div class="d-flex justify-content-end align-items-center py-3">
-                        <img src="images/banner.png" alt="">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="d-flex justify-content-start align-items-center py-3">
+                        <img class="img-fluid" src="images/banner.png" alt="">
 
                     </div>
 
@@ -78,6 +86,10 @@
             </div>
 
         </section>
+
+        <!--===========
+             display-section-end
+            ========= -->
 
 
         <section>
@@ -88,7 +100,7 @@
                     a
                     single app!"</h1>
 
-                <img width="100" src="images/tnw-logo.svg" alt="">
+                <img class="img-fluid" width="100" src="images/tnw-logo.svg" alt="">
             </div>
         </section>
 
@@ -96,14 +108,14 @@
              grid column section
             ====== -->
 
-        <section class="container">
+        <section class="container" id="feature">
             <div class="row">
-                <div class="col-md-5">
-                    <div>
-                        <img src="images/phone.png" alt="">
+                <div class="col-lg-5 col-md-12">
+                    <div class="py-4 text-center">
+                        <img class="img-fluid" src="images/phone.png" alt="">
                     </div>
                 </div>
-                <div class="col-md-7">
+                <div class="col-lg-7 col-md-12">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="d-flex flex-column flex-column align-items-center border rounded-3 p-3 my-3">
@@ -164,7 +176,7 @@
             ======== -->
 
         <!--=========
-                 half-column-styles 
+                 feature-styles-half-column
                 ======== -->
         <section class="my-5">
             <div class="container">
@@ -180,7 +192,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="d-flex align-items-center my-5">
-                            <img class="rounded-circle" src="images/web-design.png" alt="">
+                            <img class="rounded-circle img-fluid" src="images/web-design.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -188,7 +200,7 @@
         </section>
 
         <!--=========
-             feature end
+             feature end-half-column
             ======= -->
 
 
@@ -197,10 +209,16 @@
                 ========== -->
         <section class="stop-writing">
             <div class="container h-100">
-                <div class="h-100 d-flex flex-column justify-content-center align-items-start">
-                    <h1 class="display-4 w-50 text-white fw-bold">Stop Thinking,Start Creating</h1>
-                    <!-- <a href="" class="btn btn-outline-light rounded-pill  py-3 px-4">Download For Free</a> -->
-                    <a href="" class="btn btn-outline-light rounded-pill px-4 py-3 ">Download For Free</a>
+                <div class="row h-100">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="h-100 d-flex flex-column justify-content-center align-items-start">
+                            <h1 class="display-4 w-50 text-white fw-bold">Stop Thinking,Start Creating</h1>
+                            <!-- <a href="" class="btn btn-outline-light rounded-pill  py-3 px-4">Download For Free</a> -->
+                            <a href="" class="btn btn-outline-light rounded-pill px-4 py-3 ">Download For Free</a>
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -212,19 +230,27 @@
             <div class="d-flex py-5  flex-column align-items-center justify-content-center">
                 <h1 class="text-center text-white">Get the app Now !</h1>
                 <div>
-                    <a class="px-2" href="">
-                        <img src="images/google-play.png" alt="">
+                    <a href="">
+                        <img class="img-fluid" src="images/google-play.png" alt="">
                     </a>
                     <a href="">
-                        <img src="images/app-store.png" alt="">
+                        <img class="img-fluid" src="images/app-store.png" alt="">
                     </a>
                 </div>
             </div>
 
         </section>
-        <footer class="py-3 bg-dark text-center">
-            <small class="text-white">&copy;Your Website 2021. All Rights Reserved.</small>
+
+        <!--==========
+             footer style to practise
+            ========= -->
+        <footer class="bg-dark text-center py-3">
+            <small class="text-white">&copy;Your website 2022 All right Reserved</small>
+
         </footer>
+        <!--=========
+             script items cdn
+            ======== -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
             crossorigin="anonymous"></script>
