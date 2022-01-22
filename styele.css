@@ -23,3 +23,7 @@ body {
 .banner {
     height: calc(100vh - 80px);
 }
+
+.new-web-design {
+    height: 100vh;
+}
