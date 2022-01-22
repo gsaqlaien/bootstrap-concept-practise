@@ -27,3 +27,9 @@ body {
 .new-web-design {
     height: 100vh;
 }
+.stop-writing {
+    background-image: url(images/background.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
